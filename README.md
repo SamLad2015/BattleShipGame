@@ -1,5 +1,5 @@
-# BmaTest
-This repository has been created to host a project created as a Technical test for Business Modelling Associates (BMA).
+# Demontford Test
+This repository has been created to host a project created as a Technical test for Demontford Fine Art.
 
 ## Getting Started
 you should have some knowledge of running .net core projects and running npm commands in order to run this project
@@ -14,11 +14,11 @@ In order to run this project the following are the Pre-requisites:
 
 ## Running the Project
 1) Get the latest code from the repository and start in Visual Studio or IDE of your choice
-2) Build the project if on your local machine a trust certificate (which is mandatory to run .net core APIs) is not added then it will be asked. 
+2) Build the project if on your local machine a trust certificate (which is mandatory to run .net core APIs, .net core 3.1) is not added then it will be asked. 
 you can get more help about it here. https://docs.microsoft.com/en-us/aspnet/core/security/authentication/certauth?view=aspnetcore-3.1
 3) Run the Test Api project. This should start a swagger portal as below:
 
-![Swagger for BMI Test API](http://samlad.co.uk/clientimages/swagger.png)
+![Swagger for Demontford Test API](http://samlad.co.uk/clientimages/swagger1.png)
 
 4)You can test the current version of the API here, please use version number as 1 in order to test it.
 5) Project should contain a 'ui' directory which holds the front end Angular 9 code. Please open a terminal on the ui directory path
@@ -27,13 +27,11 @@ Please do if you have been asked to do so.
 7) Run 'ng serve' to run the front end project. Once it is completed it will prompt to open the front end portal on http://localhost:4200/
 8) Make sure that the api is running on 'https://localhost:5001/' though which would be confirmed when swagger is up and running. Front End portal should look as below:
 
-![Front End for BMI Test](http://samlad.co.uk/clientimages/ui.png)
+![Front End for Demontford Test](http://samlad.co.uk/clientimages/ui2.png)
 
-## Running the .net Core Test
-1) You have already built the solution while launched the API but if you haven't then please build the main solution.
-2) Under the solution you can find a project called 'BmiTestApi.Tests'. Right click on it and select 'Run Unit Tests'. This will run the .net Unit Tests for Api controller.
+####After Winning:
 
-
+![Front End for Demontford Test](http://samlad.co.uk/clientimages/ui1.png)
 
 
 
