@@ -1,4 +1,7 @@
+using System.Linq;
+using System.Linq.Dynamic.Core;
 using DemontfordTest.Enums;
+using Microsoft.EntityFrameworkCore.Internal;
 
 namespace DemontfordTest.Entities
 {
@@ -9,6 +12,5 @@ namespace DemontfordTest.Entities
         public int Columns { get; set; }
         public int OccupationCount { get; set; }
         public int HitCount { get; set; }
-        public bool HasLost => HitCount >= OccupationCount && HitCount > 0;
     }
 }

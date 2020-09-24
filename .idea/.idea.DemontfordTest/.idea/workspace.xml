@@ -13,176 +13,31 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82f47c2d-28af-4227-bfd1-57c02ef6f6ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BmaTestApi/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/v1/BoardController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/v1/ShipController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Enums/ShipOrientation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/AttackModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/NewShipModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/PlaceShipsModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/ShipModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/src/app/shared/board.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/src/app/shared/board.static.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/src/app/shared/board.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/src/app/shared/ship.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/src/app/shared/ship.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BmaTestApi.Tests/BmaTestApi.Tests.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BmaTestApi.Tests/RestaurantControllerUnitTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BmaTestApi.Tests/RestaurantServiceFake.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BmaTestApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DemontfordTest.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BmaTestApi.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigureSwaggerOptions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigureSwaggerOptions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/v1/CuisineController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/v1/RestaurantListingController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dtos/RestaurantDto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dtos/RestaurantFilterDto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dtos/RestaurantRequestDto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/BaseEntity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/CuisineEntity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/RestaurantCuisineEntity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/RestaurantEntity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Helpers/CorsExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Helpers/CorsExtension.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Helpers/DynamicExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Helpers/ExceptionExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Helpers/ExceptionExtension.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Helpers/VersioningExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Helpers/VersioningExtension.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MappingProfiles/RestaurantMappings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/CuisineRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/ICuisineRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/IRestaurantRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/RestaurantRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/TestDbContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/CuisineService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/ICuisineService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/IRestaurantService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/RestaurantService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/AutoMapper.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/BmaTestApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/DemontfordTest.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/BmaTestApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/DemontfordTest.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/BmaTestApi.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/BmaTestApi.runtimeconfig.dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/ui/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/ui/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/ui/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/BlaTestApi.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/BlaTestApi.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/BlaTestApi.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/BmaTestApi.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/BmaTestApi.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/BmaTestApi.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/BlaTestApi.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/BlaTestApi.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/BlaTestApi.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/BlaTestApi.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/BlaTestApi.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/BlaTestApi.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/BlaTestApi.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/BlaTestApi.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/BmaTestApi.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/BmaTestApi.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/BmaTestApi.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/BmaTestApi.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/BmaTestApi.RazorTargetAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/BmaTestApi.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/BmaTestApi.csproj.CopyComplete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/BmaTestApi.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/BmaTestApi.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/BmaTestApi.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/BmaTestApi.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/BmaTestApi.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/BmaTestApi.genruntimeconfig.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/BmaTestApi.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/TestApi.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/TestApi.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/TestApi.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/TestApi.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/TestApi.RazorTargetAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/TestApi.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/TestApi.csproj.CopyComplete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/TestApi.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/TestApi.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/TestApi.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/TestApi.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/TestApi.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/TestApi.genruntimeconfig.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/TestApi.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tsc186cf63a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tsc197a19ab.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tsc1d170581.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tsc218a7568.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tsc21c69d93.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tsc2a76decf.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tsc2ba22bde.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tsc361c69ba.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tsc47504287.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tsc482d102d.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tsc488d7973.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tsc4900590b.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tsc4d92356f.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tsc4dd5d0a0.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tsc52ca441b.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tsc54c37c28.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tsc56164b17.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tsc5b523b41.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tsc5dc0c191.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tsc61c53ad4.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tsc691a018.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tsc69b4d9ff.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tsc6bc79012.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tsc6e2f7e8c.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tsc720277af.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tsc8b19b03c.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tsc94736db9.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tsca5ed2a76.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tsca76cc7ec.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tsca84bcfa7.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tscb934a57b.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tscb9f0cd0f.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tscc5f02b2d.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tsccdb0feaf.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tsce7afd9ef.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tsce985bdb7.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tscea97684d.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tscf497fc3.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tscf56b337.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Tscfa168cfc.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/staticwebassets/BmaTestApi.StaticWebAssets.Manifest.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/staticwebassets/BmaTestApi.StaticWebAssets.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/staticwebassets/TestApi.StaticWebAssets.Manifest.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/staticwebassets/TestApi.StaticWebAssets.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/TestApi.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/TestApi.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/TestApi.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/ui/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/src/app/components/check-box.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/src/app/components/restaurants-list/filters/filters.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/src/app/components/restaurants-list/filters/filters.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/src/app/components/restaurants-list/filters/filters.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/src/app/components/restaurants-list/filters/filters.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/src/app/components/restaurants-list/restaurant/restaurant.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/src/app/components/restaurants-list/restaurant/restaurant.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/src/app/components/restaurants-list/restaurant/restaurant.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/src/app/components/restaurants-list/restaurant/restaurant.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/src/app/components/restaurants-list/restaurants-list.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/src/app/components/restaurants-list/restaurants-list.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/src/app/components/restaurants-list/restaurants-list.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/src/app/components/restaurants-list/restaurants-list.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/src/app/shared/config.static.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/src/app/shared/cuisine.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/src/app/shared/formBuilder.static.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/src/app/shared/restaurant.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/src/app/shared/restaurant.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/environments/environment.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/src/store/actions.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/src/store/constants.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/src/store/store.ts" beforeDir="false" />
+    <list default="true" id="82f47c2d-28af-4227-bfd1-57c02ef6f6ed" name="Default Changelist" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DemontfordTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DemontfordTest/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DemontfordTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DemontfordTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/v1/BoardController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/v1/BoardController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/Board.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/Board.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/Ship.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/Ship.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/Ships/Battleship.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/Ships/Battleship.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/Ships/Destroyer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/Ships/Destroyer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Enums/BoardCellStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Enums/BoardCellStatus.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Implementations/Attacker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Implementations/Attacker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Implementations/ShipCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Implementations/ShipCreator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Implementations/ShipPlacer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Implementations/ShipPlacer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/IShipPlacer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces/IShipPlacer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/DemontfordTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/DemontfordTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/DemontfordTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/DemontfordTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DemontfordTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DemontfordTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DemontfordTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/DemontfordTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/src/app/components/battle-board/battle-board.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/app/components/battle-board/battle-board.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/src/app/components/battle-board/battle-board.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/app/components/battle-board/battle-board.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/src/app/components/battle-board/battle-board.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/app/components/battle-board/battle-board.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/src/app/shared/board.static.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/app/shared/board.static.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/src/app/shared/board.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/app/shared/board.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/src/app/shared/ship.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/app/shared/ship.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,9 +65,7 @@
         <option value="$PROJECT_DIR$/Helpers/ExceptionExtension.cs" />
         <option value="$PROJECT_DIR$/Helpers/VersioningExtension.cs" />
         <option value="$PROJECT_DIR$/Enums/AttackStatus.cs" />
-        <option value="$PROJECT_DIR$/Interfaces/IAttacker.cs" />
         <option value="$PROJECT_DIR$/Implementations/BoardCreator.cs" />
-        <option value="$PROJECT_DIR$/Implementations/Attacker.cs" />
         <option value="$PROJECT_DIR$/DemontfordTest.csproj" />
         <option value="$PROJECT_DIR$/Models/AttackModel.cs" />
         <option value="$PROJECT_DIR$/Enums/ShipOrientation.cs" />
@@ -221,36 +74,42 @@
         <option value="$PROJECT_DIR$/ConfigureSwaggerOptions.cs" />
         <option value="$PROJECT_DIR$/Controllers/v1/GameController.cs" />
         <option value="$PROJECT_DIR$/ui/angular.json" />
-        <option value="$PROJECT_DIR$/ui/src/app/shared/board.ts" />
         <option value="$PROJECT_DIR$/ui/src/app/shared/board.service.ts" />
         <option value="$PROJECT_DIR$/ui/src/store/constants.ts" />
         <option value="$PROJECT_DIR$/ui/src/store/actions.ts" />
         <option value="$PROJECT_DIR$/ui/src/store/store.ts" />
         <option value="$PROJECT_DIR$/Enums/ShipType.cs" />
-        <option value="$PROJECT_DIR$/Entities/Ships/Battleship.cs" />
-        <option value="$PROJECT_DIR$/Entities/Ships/Destroyer.cs" />
         <option value="$PROJECT_DIR$/ui/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/ui/src/environments/environment.ts" />
         <option value="$PROJECT_DIR$/Startup.cs" />
         <option value="$PROJECT_DIR$/Helpers/CorsExtension.cs" />
-        <option value="$PROJECT_DIR$/Controllers/v1/BoardController.cs" />
-        <option value="$PROJECT_DIR$/Entities/Board.cs" />
-        <option value="$PROJECT_DIR$/Entities/Ship.cs" />
-        <option value="$PROJECT_DIR$/ui/src/app/components/battle-board/battle-board.component.html" />
         <option value="$PROJECT_DIR$/ui/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/ui/src/app/components/battle-board/battle-board.component.css" />
         <option value="$PROJECT_DIR$/ui/src/index.html" />
         <option value="$PROJECT_DIR$/Models/ShipModel.cs" />
         <option value="$PROJECT_DIR$/Models/PlaceShipsModel.cs" />
-        <option value="$PROJECT_DIR$/Interfaces/IShipPlacer.cs" />
         <option value="$PROJECT_DIR$/Interfaces/IShipCreator.cs" />
         <option value="$PROJECT_DIR$/ui/src/app/shared/ship.service.ts" />
-        <option value="$PROJECT_DIR$/ui/src/app/shared/ship.ts" />
-        <option value="$PROJECT_DIR$/ui/src/app/shared/board.static.service.ts" />
         <option value="$PROJECT_DIR$/Controllers/v1/ShipController.cs" />
-        <option value="$PROJECT_DIR$/ui/src/app/components/battle-board/battle-board.component.ts" />
+        <option value="$PROJECT_DIR$/ui/package.json" />
+        <option value="$PROJECT_DIR$/Enums/BoardCellStatus.cs" />
+        <option value="$PROJECT_DIR$/Controllers/v1/BoardController.cs" />
+        <option value="$PROJECT_DIR$/Models/AttackStatusModel.cs" />
+        <option value="$PROJECT_DIR$/Entities/Board.cs" />
+        <option value="$PROJECT_DIR$/Implementations/Attacker.cs" />
+        <option value="$PROJECT_DIR$/Interfaces/IAttacker.cs" />
+        <option value="$PROJECT_DIR$/ui/src/app/shared/board.ts" />
+        <option value="$PROJECT_DIR$/Models/PlaceShipsResponseModel.cs" />
         <option value="$PROJECT_DIR$/Implementations/ShipPlacer.cs" />
+        <option value="$PROJECT_DIR$/Interfaces/IShipPlacer.cs" />
         <option value="$PROJECT_DIR$/Implementations/ShipCreator.cs" />
+        <option value="$PROJECT_DIR$/ui/src/app/shared/ship.ts" />
+        <option value="$PROJECT_DIR$/Entities/Ships/Battleship.cs" />
+        <option value="$PROJECT_DIR$/Entities/Ship.cs" />
+        <option value="$PROJECT_DIR$/Entities/Ships/Destroyer.cs" />
+        <option value="$PROJECT_DIR$/ui/src/app/shared/board.static.service.ts" />
+        <option value="$PROJECT_DIR$/ui/src/app/components/battle-board/battle-board.component.ts" />
+        <option value="$PROJECT_DIR$/ui/src/app/components/battle-board/battle-board.component.css" />
+        <option value="$PROJECT_DIR$/ui/src/app/components/battle-board/battle-board.component.html" />
       </list>
     </option>
   </component>
@@ -311,8 +170,16 @@
       <workItem from="1600879566663" duration="520000" />
       <workItem from="1600880226360" duration="6420000" />
       <workItem from="1600886757297" duration="1450000" />
-      <workItem from="1600888349162" duration="18110000" />
+      <workItem from="1600888349162" duration="36290000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1600908577144</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600908577144</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,28 +201,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="WindowStateProjectService">
     <state width="531" height="464" key="DebuggerActiveHint" timestamp="1600907902048">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state width="531" height="464" key="DebuggerActiveHint/0.0.1500.960@0.0.1500.960" timestamp="1600907902048" />
-    <state width="1458" height="30" key="GridCell.Tab.0.bottom" timestamp="1600908312165">
+    <state width="1458" height="89" key="GridCell.Tab.0.bottom" timestamp="1600948395558">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="30" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1600908312165" />
-    <state width="1458" height="30" key="GridCell.Tab.0.center" timestamp="1600908312165">
+    <state width="1458" height="89" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1600948395558" />
+    <state width="1458" height="89" key="GridCell.Tab.0.center" timestamp="1600948395557">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="30" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1600908312165" />
-    <state width="1458" height="30" key="GridCell.Tab.0.left" timestamp="1600908312165">
+    <state width="1458" height="89" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1600948395557" />
+    <state width="1458" height="89" key="GridCell.Tab.0.left" timestamp="1600948395557">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="30" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1600908312165" />
-    <state width="1458" height="30" key="GridCell.Tab.0.right" timestamp="1600908312165">
+    <state width="1458" height="89" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1600948395557" />
+    <state width="1458" height="89" key="GridCell.Tab.0.right" timestamp="1600948395558">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="30" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1600908312165" />
+    <state width="1458" height="89" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1600948395558" />
     <state width="1458" height="139" key="GridCell.Tab.1.bottom" timestamp="1600907928186">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -424,13 +293,17 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="252" y="125" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1600879980456" />
-    <state x="431" y="212" width="637" height="592" key="find.popup" timestamp="1600881491750">
+    <state x="431" y="212" width="637" height="592" key="find.popup" timestamp="1600948352856">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="431" y="212" width="637" height="592" key="find.popup/0.0.1500.960@0.0.1500.960" timestamp="1600881491750" />
+    <state x="431" y="212" width="637" height="592" key="find.popup/0.0.1500.960@0.0.1500.960" timestamp="1600948352856" />
     <state x="534" y="372" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1600888671368">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="534" y="372" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1500.960@0.0.1500.960" timestamp="1600888671368" />
+    <state x="468" y="252" key="refactoring.ChangeSignatureDialog" timestamp="1600911681105">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="468" y="252" key="refactoring.ChangeSignatureDialog/0.0.1500.960@0.0.1500.960" timestamp="1600911681105" />
   </component>
 </project>

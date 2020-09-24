@@ -19,14 +19,11 @@ namespace DemontfordTest.Implementations
                 {
                     switch (ship.Type)
                     {
-                        case ShipType.Battleship:
+                        default:
                             ships.Add( new Battleship(ship.Name));
                             break;
                         case ShipType.Destroyer:
                             ships.Add( new Destroyer(ship.Name));
-                            break;
-                        default:
-                            ships.Add( new Battleship(ship.Name));
                             break;
                     }
                 }

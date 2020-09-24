@@ -43,7 +43,7 @@ namespace DemontfordTest.Controllers.v1
         {
             try
             {
-                var status = _attacker.Attack(model.Board, model.Column, model.Row);
+                var status = _attacker.Attack(model.Board, model.Row, model.Column);
                 return Ok(status);
             }
             catch (Exception e)

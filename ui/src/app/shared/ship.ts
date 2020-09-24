@@ -3,6 +3,8 @@
 export class Ship {
   name: string;
   type: number;
+  cellsOccupied: string[];
+  size: number;
   constructor(name: string, type: number) {
     this.name = name;
     this.type = type;

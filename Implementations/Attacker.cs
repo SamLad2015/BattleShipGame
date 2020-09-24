@@ -19,6 +19,7 @@ namespace DemontfordTest.Implementations
                 board.BoardCellStatuses[row, column] = BoardCellStatus.Hit;
                 
                 board.HitCount++;
+                board.OccupationCount--;
                 
                 return AttackStatus.Hit;
             }

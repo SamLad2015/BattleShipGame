@@ -9,14 +9,14 @@ namespace DemontfordTest.Implementations
 {
     public class ShipPlacer : IShipPlacer
     {
-        public Board AddShipsToBoard(PlaceShipsModel placeShipsModel)
+        public PlaceShipsModel AddShipsToBoard(PlaceShipsModel placeShipsModel)
         {
             foreach (var model in placeShipsModel.ShipModels)
             {
                 placeShipsModel.Board = AddShipModel(model, placeShipsModel.Board);
             }
 
-            return placeShipsModel.Board;
+            return placeShipsModel;
         }
 
         private Board AddShipModel(ShipModel model, Board board)

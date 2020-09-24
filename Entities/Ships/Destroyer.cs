@@ -8,7 +8,7 @@ namespace DemontfordTest.Entities.Ships
         {
             Name = name;
             Size = 4;
-            ShipType = ShipType.Destroyer;
+            Type = ShipType.Destroyer;
         }
     }
 }

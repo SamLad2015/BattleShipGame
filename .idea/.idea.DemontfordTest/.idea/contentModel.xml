@@ -144,7 +144,6 @@
         <e p="node_modules\@angular-devkit\build-webpack" t="IncludeRecursive" />
         <e p="node_modules\@angular-devkit\core" t="IncludeRecursive" />
         <e p="node_modules\@angular-devkit\schematics" t="IncludeRecursive" />
-        <e p="node_modules\@angular-redux\store" t="IncludeRecursive" />
         <e p="node_modules\@jsdevtools\coverage-istanbul-loader" t="IncludeRecursive" />
         <e p="node_modules\@ngtools\webpack" t="IncludeRecursive" />
         <e p="node_modules\@types" t="IncludeRecursive">
@@ -211,8 +210,6 @@
         <e p="node_modules\postcss" t="IncludeRecursive" />
         <e p="node_modules\promise" t="IncludeRecursive" />
         <e p="node_modules\protractor" t="IncludeRecursive" />
-        <e p="node_modules\redux" t="IncludeRecursive" />
-        <e p="node_modules\redux-devtools-extension" t="IncludeRecursive" />
         <e p="node_modules\reflect-metadata" t="IncludeRecursive" />
         <e p="node_modules\restore-cursor" t="IncludeRecursive" />
         <e p="node_modules\rollup" t="IncludeRecursive" />
@@ -301,6 +298,8 @@
               <e p="battle-board" t="Include">
                 <e p="battle-board.component.css" t="Include" />
                 <e p="battle-board.component.html" t="Include" />
+                <e p="battle-board.component.spec.ts" t="Include" />
+                <e p="battle-board.component.ts" t="Include" />
               </e>
             </e>
             <e p="shared" t="Include">

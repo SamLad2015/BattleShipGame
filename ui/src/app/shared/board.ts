@@ -10,5 +10,22 @@
 export class AttackInfo {
   board: Board;
   row: number;
-  number: number;
+  column: number;
 }
+
+export enum AttackResult {
+  hit,
+  miss
+}
+ export enum BoardCellStatus {
+   hit,
+   miss,
+   unoccupied,
+   occupied
+ }
+
+ export enum GameMode {
+   on,
+   quit,
+   finished
+ }

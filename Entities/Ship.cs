@@ -6,6 +6,6 @@ namespace DemontfordTest.Entities
     {
         public string Name { get; set; }
         public int Size { get; set; }
-        public ShipType ShipType { get; set; }
+        public ShipType Type { get; set; }
     }
 }

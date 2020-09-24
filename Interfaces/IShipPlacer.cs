@@ -7,6 +7,6 @@ namespace DemontfordTest.Interfaces
 {
     public interface IShipPlacer
     {
-        Board AddShipsToBoard(PlaceShipsModel placeShipsModel);
+        PlaceShipsModel AddShipsToBoard(PlaceShipsModel placeShipsModel);
     }
 }
