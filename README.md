@@ -14,7 +14,7 @@ In order to run this project the following are the Pre-requisites:
 
 ## Running the Project
 1) Get the latest code from the repository and start in Visual Studio or IDE of your choice.
-2) Project should contain a 'ui' directory which holds the front end Angular 9 code. Please open a terminal on the ui directory path
+2) Project should contain a 'ui' directory which holds the front end Angular 9 code. Please open a terminal on the ui directory path (in order to run the git commands)
 3) Run 'npm install' which will download all necessary npm packages required to run the front end project. You may be asked to run 'npm audit fix' to resolve all dependencies.
 Please do if you have been asked to do so. This is necessary to run before back end build as build checks for front end errors too.
 4) Build the project if on your local machine a trust certificate (which is mandatory to run .net core APIs, .net core 3.1) is not added then it will be asked. 
