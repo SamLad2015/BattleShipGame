@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "bma-test-ui": {
+    "demontford-test-ui": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/bma-test-ui",
+            "outputPath": "dist/demontford-test-ui",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -59,18 +59,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "bma-test-ui:build"
+            "browserTarget": "demontford-test-ui:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "bma-test-ui:build:production"
+              "browserTarget": "demontford-test-ui:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "bma-test-ui:build"
+            "browserTarget": "demontford-test-ui:build"
           }
         },
         "test": {
@@ -107,18 +107,18 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "bma-test-ui:serve"
+            "devServerTarget": "demontford-test-ui:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "bma-test-ui:serve:production"
+              "devServerTarget": "demontford-test-ui:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "bma-test-ui",
+  "defaultProject": "demontford-test-ui",
   "cli": {
     "analytics": false
   }

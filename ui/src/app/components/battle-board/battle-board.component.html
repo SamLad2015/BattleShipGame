@@ -1,0 +1,9 @@
+<div *ngIf="board" class="battle-board">
+  <div class="board-row" *ngFor="let r of board.boardCellStatuses">
+    <div class="board-cell"
+         [ngClass]="{'occupied': 1===c}"
+         *ngFor="let c of r">
+      {{c}}
+    </div>
+  </div>
+</div>

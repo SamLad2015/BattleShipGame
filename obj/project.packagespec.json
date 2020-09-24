@@ -1,11 +1,14 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\ladsa\\RiderProjects\\bma\\BmaTestApi.csproj",
-    "projectName": "BmaTestApi",
-    "projectPath": "C:\\Users\\ladsa\\RiderProjects\\bma\\BmaTestApi.csproj",
-    "outputPath": "C:\\Users\\ladsa\\RiderProjects\\bma\\obj\\",
+    "projectUniqueName": "C:\\Users\\ladsa\\RiderProjects\\DeMontfordTest\\DemontfordTest.csproj",
+    "projectName": "DemontfordTest",
+    "projectPath": "C:\\Users\\ladsa\\RiderProjects\\DeMontfordTest\\DemontfordTest.csproj",
+    "outputPath": "C:\\Users\\ladsa\\RiderProjects\\DeMontfordTest\\obj\\",
     "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
     "originalTargetFrameworks": [
       "netcoreapp3.1"
     ],
@@ -26,14 +29,6 @@
   "frameworks": {
     "netcoreapp3.1": {
       "dependencies": {
-        "AutoMapper": {
-          "target": "Package",
-          "version": "[9.0.0, )"
-        },
-        "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-          "target": "Package",
-          "version": "[7.0.0, )"
-        },
         "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
           "target": "Package",
           "version": "[3.1.0, )"

@@ -1,0 +1,17 @@
+.battle-board {
+  padding: 20px;
+}
+
+.battle-board .board-row .board-cell {
+  border: 1px solid #666;
+  padding: 15px 20px;
+  display: inline-block;
+}
+
+.battle-board .board-row .board-cell.occupied {
+  background-color: orange;
+}
+
+.battle-board .board-row .board-cell.battleship.occupied {
+  background-color: darkslateblue;
+}

@@ -1,28 +1,21 @@
-﻿using AutoMapper;
-using BmaTestApi.Entities;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Diagnostics;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.AspNetCore.Mvc.Routing;
-using Microsoft.AspNetCore.Mvc.Versioning;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json.Serialization;
-using BmaTestApi.Helpers;
-using BmaTestApi.MappingProfiles;
-using BmaTestApi.Repositories;
-using BmaTestApi.Services;
+using DemontfordTest.Helpers;
+using DemontfordTest.Implementations;
+using DemontfordTest.Interfaces;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace BmaTestApi
+namespace DemontfordTest
 {
     public class Startup
     {
@@ -37,23 +30,19 @@ namespace BmaTestApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddOptions();
-            services.AddDbContext<TestDbContext>(opt => 
-                opt.UseInMemoryDatabase(databaseName: "BlaHotels"));
-            services.AddCustomCors("AllowAllOrigins");
-            
-            services.AddScoped<IRestaurantRepository, RestaurantRepository>();
-            services.AddScoped<ICuisineRepository, CuisineRepository>();
-            services.AddScoped<ICuisineService, CuisineService>();
-            services.AddScoped<IRestaurantService, RestaurantService>();
             services.AddRouting(options => options.LowercaseUrls = true);
             services.AddSingleton<IActionContextAccessor, ActionContextAccessor>();
+            services.AddCustomCors("AllowAllOrigins");
             services.AddScoped<IUrlHelper>(x =>
             {
                 var actionContext = x.GetRequiredService<IActionContextAccessor>().ActionContext;
                 var factory = x.GetRequiredService<IUrlHelperFactory>();
                 return factory.GetUrlHelper(actionContext);
             });
-            
+            services.AddScoped<IAttacker, Attacker>();
+            services.AddScoped<IBoardCreator, BoardCreator>();
+            services.AddScoped<IShipCreator, ShipCreator>();
+            services.AddScoped<IShipPlacer, ShipPlacer>();
             services.AddControllers()
                    .AddNewtonsoftJson(options =>
                        options.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver())
@@ -62,8 +51,6 @@ namespace BmaTestApi
             services.AddVersioning();
             services.AddTransient<IConfigureOptions<SwaggerGenOptions>, ConfigureSwaggerOptions>();
             services.AddSwaggerGen();
-
-            services.AddAutoMapper(typeof(RestaurantMappings));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

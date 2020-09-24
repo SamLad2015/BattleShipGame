@@ -4,17 +4,17 @@ using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace BmaTestApi
+namespace DemontfordTest
 {
     public class ConfigureSwaggerOptions : IConfigureOptions<SwaggerGenOptions>
     {
-        readonly IApiVersionDescriptionProvider provider;
+        readonly IApiVersionDescriptionProvider _provider;
 
-        public ConfigureSwaggerOptions(IApiVersionDescriptionProvider provider) => this.provider = provider;
+        public ConfigureSwaggerOptions(IApiVersionDescriptionProvider provider) => this._provider = provider;
 
         public void Configure(SwaggerGenOptions options)
         {
-            foreach (var description in provider.ApiVersionDescriptions)
+            foreach (var description in _provider.ApiVersionDescriptions)
             {
                 options.SwaggerDoc(description.GroupName, CreateInfoForApiVersion(description));
             }
@@ -24,9 +24,9 @@ namespace BmaTestApi
         {
             var info = new OpenApiInfo()
             {
-                Title = "BMA Test API",
+                Title = "DemontfordTest Test API",
                 Version = description.ApiVersion.ToString(),
-                Description = "Test API for Test for BMA.",
+                Description = "Test API for Test for DemontfordTest.",
             };
 
             if (description.IsDeprecated)

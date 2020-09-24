@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace BmaTestApi.Helpers
+namespace DemontfordTest.Helpers
 {
     public static class CorsExtension
     {
