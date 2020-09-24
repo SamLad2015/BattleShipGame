@@ -19,7 +19,7 @@ In order to run this project the following are the Pre-requisites:
 Please do if you have been asked to do so. This is necessary to run before back end build as build checks for front end errors too.
 4) Build the project if on your local machine a trust certificate (which is mandatory to run .net core APIs, .net core 3.1) is not added then it will be asked. 
 you can get more help about it here. https://docs.microsoft.com/en-us/aspnet/core/security/authentication/certauth?view=aspnetcore-3.1
-5) Run the Test Api project. This should start a swagger portal as below:
+5) Run the Test Api project. Run the Api on TestApi configuration and not IIS Express configuration. This should start a swagger portal as below:
 
 ![Swagger for Demontford Test API](http://samlad.co.uk/clientimages/swagger1.png)
 
