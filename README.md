@@ -20,7 +20,7 @@ you can get more help about it here. https://docs.microsoft.com/en-us/aspnet/cor
 
 ![Swagger for Demontford Test API](http://samlad.co.uk/clientimages/swagger1.png)
 
-4)You can test the current version of the API here, please use version number as 1 in order to test it.
+4) You can test the current version of the API here, please use version number as 1 in order to test it.
 5) Project should contain a 'ui' directory which holds the front end Angular 9 code. Please open a terminal on the ui directory path
 6) Run 'npm install' which will download all necessary npm packages required to run the front end project. You may be asked to run 'npm audit fix' to resolve all dependencies.
 Please do if you have been asked to do so.
