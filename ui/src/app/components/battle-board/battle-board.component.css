@@ -1,0 +1,111 @@
+.battle-board {
+  padding: 20px;
+}
+
+.row-number, .battle-board .board-row .board-cell {
+  display: inline-block;
+}
+
+.row-number {
+  width: 30px;
+}
+
+.header-cell {
+  display: inline-block;
+  padding: 21px;
+  width:55px;
+}
+
+.battle-board .board-row .board-cell {
+  border: 1px solid #666;
+  padding: 15px 20px;
+  width:55px;
+}
+
+.battle-board.quit-mode .board-row .board-cell.occupied {
+  background-color: orange;
+}
+
+.battle-board .board-row .board-cell.miss {
+  background-color: red;
+}
+
+.battle-board .board-row .board-cell.hit {
+  background-color: darkgreen;
+}
+
+.battle-board.quit-mode .board-row .board-cell.battleship.occupied {
+  background-color: darkslateblue;
+}
+
+.hitsInfo {
+  padding: 20px;
+  font-weight: bold;
+}
+
+.game-container {
+  display: flex;
+}
+
+.left-col, .right-col {
+  flex: 50%;
+}
+
+.button-row {
+  display: flex;
+  flex: 1;
+  padding: 20px 0;
+}
+
+.buttons-header {
+  margin-top: 30px;
+}
+
+.fire-button {
+  border: 1px solid #666;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-left: 15px;
+}
+
+.fire-button.selected {
+  background-color: green;
+}
+
+.quit-button-wrapper {
+  padding-left: 33%;
+}
+
+.quit-button-wrapper .quit-button {
+  background-color: red;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 5px 10px;
+  border: 1px red solid;
+}
+
+.quit-button-wrapper .quit-button.disabled {
+  background-color: #666666;
+  border-color: #666666;
+}
+
+.legend {
+  float: right;
+  margin-right: 100px;
+  margin-top: -50px;
+  font-weight: bolder;
+}
+
+.blink {
+  color: green;
+  font-size: 2em;
+  padding-left: 20px;
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

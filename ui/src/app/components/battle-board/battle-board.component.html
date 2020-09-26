@@ -1,0 +1,58 @@
+<div class="game-container">
+  <div class="left-col">
+    <div *ngIf="board" [class.quit-mode]="gameMode===1" class="battle-board">
+      <div class="board-row" *ngFor="let r of board.boardCellStatuses; let i = index">
+        <div *ngIf="i===0">
+          <div class="row-number">&nbsp;</div>
+          <div class="header-cell" *ngFor="let c of r; let j = index">
+            {{columnLetters[j]}}
+          </div>
+        </div>
+        <div class="row-number">{{i+1}}</div>
+        <div class="board-cell"
+             [ngClass]="{
+             'battleship': isBattleShip((i+1) + columnLetters[j]),
+             'occupied':3===c,
+             'miss': 1===c,
+             'hit': 0===c
+             }"
+             *ngFor="let c of r; let j = index">
+          {{gameMode===1||gameMode===2 ? getShipName((i+1) + columnLetters[j]) : 'O'}}
+        </div>
+      </div>
+    </div>
+    <div *ngIf="board" class="hitsInfo">
+      Attempts Made: {{board.hitCount}}
+    </div>
+    <div class="legend" *ngIf="gameMode===1 || gameMode===2">
+      <div *ngFor="let s of ships">
+        {{s.name.replace('HMS ', '').substring(0, 2)}} : {{s.name}}
+      </div>
+    </div>
+    <div *ngIf="!hasWonGame" class="hitsInfo quit-button-wrapper">
+      <button class="quit-button"
+              [disabled]="gameMode===1 || gameMode===2"
+              [class.disabled]="gameMode===1 || gameMode===2"
+              (click)="quitGame()">I give up</button>
+    </div>
+    <div *ngIf="hasWonGame" class="blink">
+      You Won!!!
+    </div>
+  </div>
+  <div class="right-col">
+    <div class="buttons-header">
+      Select the button combination to select a location to fire at
+    </div>
+    <div class="button-row" *ngFor="let l of columnLetters; let i = index">
+      <button class="fire-button"
+              [disabled]="gameMode===1 || gameMode===2"
+              [class.selected]="attemptedAttack.row===i"
+              (click)="selectButton(i,'row')">{{i+1}}</button>
+      <button class="fire-button"
+              [disabled]="gameMode===1 || gameMode===2"
+              [class.selected]="attemptedAttack.column===columnLetters.indexOf(l)"
+              (click)="selectButton(columnLetters.indexOf(l), 'column')">{{l}}</button>
+    </div>
+  </div>
+</div>
+
