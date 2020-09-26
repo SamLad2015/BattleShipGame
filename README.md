@@ -18,7 +18,7 @@ In order to run this project the following are the Pre-requisites:
 you can get more help about it here. https://docs.microsoft.com/en-us/aspnet/core/security/authentication/certauth?view=aspnetcore-3.1
 3) Run the Test Api project. This should start a swagger portal as below:
 
-![Swagger for Battleship Test API](http://samlad.co.uk/clientimages/swagger1.png)
+![Swagger for Battleship Test API](http://samlad.co.uk/clientimages/battleshipgame/swagger1.png)
 
 4) You can test the current version of the API here, please use version number as 1 in order to test it.
 5) Project should contain a 'ui' directory which holds the front end Angular 9 code. Please open a terminal on the ui directory path
@@ -27,13 +27,13 @@ Please do if you have been asked to do so.
 7) Run 'ng serve' to run the front end project. Once it is completed it will prompt to open the front end portal on http://localhost:4200/
 8) Make sure that the api is running on 'https://localhost:5001/' though which would be confirmed when swagger is up and running. Front End portal should look as below:
 
-![Front End for Battleship Test](http://samlad.co.uk/clientimages/ui1.png)
+![Front End for Battleship Test](http://samlad.co.uk/clientimages/battleshipgame/ui1.png)
 
-![Front End for Battleship Test](http://samlad.co.uk/clientimages/ui2.png)
+![Front End for Battleship Test](http://samlad.co.uk/clientimages/battleshipgame/ui2.png)
 
 ####After Winning:
 
-![Front End for Battleship Test](http://samlad.co.uk/clientimages/ui3.png)
+![Front End for Battleship Test](http://samlad.co.uk/clientimages/battleshipgame/ui3.png)
 
 
 
